@@ -46,7 +46,7 @@ ol {
   --links-color: #afb1b8;
 }
 
-.page {
+.body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
 
@@ -55,11 +55,11 @@ ol {
   letter-spacing: 0.03em;
 }
 
-.header-page {
+.header {
   border-bottom: 1px solid var(--line-color);
 }
 
-.header-nav {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -79,9 +79,9 @@ ol {
 
 /*  Logo  */
 
-.logo-blue,
-.logo-black,
-.logo-white {
+.logo__blue,
+.logo__black,
+.logo__white {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -89,18 +89,15 @@ ol {
   text-decoration: none;
 }
 
-.logo-black {
+.logo__black {
   color: var(--black-color);
 }
 
-.logo-white {
+.logo__white {
   color: var(--white-color);
 }
 
-.link-logo {
-  /* height: 31px;
-  margin-top: 60px; */
-
+.logo {
   text-decoration: none;
 }
 
@@ -110,16 +107,16 @@ ol {
 
 /* Site-nav */
 
-.site-nav {
+.navigation__list {
   display: flex;
   margin-left: 94px;
 }
 
-.site-nav .item:not(last-child) {
+.navigation__list .navigation__item:not(last-child) {
   margin-right: 50px;
 }
 
-.site-nav a {
+.navigation__list a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -134,12 +131,12 @@ ol {
   text-decoration: none;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.navigation__list a:hover,
+.navigation__list a:focus {
   color: var(--accent-color);
 }
 
-.item {
+.navigation__item {
   position: relative;
 }
 
@@ -155,13 +152,13 @@ ol {
   border-radius: 60px;
 }
 
-.link {
+.navigation__link {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link.current {
+.navigation__link.current {
   position: relative;
   color: var(--accent-color);
 }
@@ -174,7 +171,7 @@ ol {
   margin-right: 0;
 }
 
-.auth-nav .item:not(last-child) {
+.auth-nav .navigation__item:not(last-child) {
   margin-right: 50px;
 }
 
@@ -209,8 +206,8 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link:hover .auth-nav-icon,
-.link:focus .auth-nav-icon {
+.navigation__link:hover .auth-nav-icon,
+.navigation__link:focus .auth-nav-icon {
   fill: var(--accent-color);
 }
 
@@ -241,7 +238,7 @@ ol {
   background-position: center;
 }
 
-.hero-title {
+.hero__title {
   width: 696px;
   margin-left: auto;
   margin-right: auto;
@@ -450,7 +447,7 @@ ol {
 
 /* Button */
 
-.button-primary {
+.button-secondary {
   border-radius: 4px;
   padding: 6px 22px;
   min-widht: 125px;
@@ -470,14 +467,14 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-primary:hover,
-.button-primary:focus {
+.button-secondary:hover,
+.button-secondary:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.button-secondary {
+.button-primary {
   border-radius: 4px;
   padding: 10px 32px;
   margin-top: 30px;
@@ -500,8 +497,8 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-secondary:hover,
-.button-secondary:focus {
+.button-primary:hover,
+.button-primary:focus {
   color: var(--white-color);
   background-color: var(--background-button-color-sec);
 }
@@ -676,7 +673,7 @@ ol {
   font-weight: 400;
 }
 
-.button-secondary.subscription-button {
+.button-primary.subscription-button {
   position: relative;
   width: 200px;
   height: 50px;
@@ -687,8 +684,6 @@ ol {
   align-items: center;
   margin-top: 0;
 }
-
-
 
 .subscription-button-text {
   font-weight: 700;
@@ -720,10 +715,6 @@ ol {
 
   color: var(--title-text-color);
 }
-
-/* .portfolio-list .item:last-child {
-  margin-right: 8px;
-} */
 
 .portfolio-cards {
   display: flex;
@@ -972,7 +963,7 @@ ol {
   margin-left: 7px;
 }
 
-.button-secondary.button-modal {
+.button-primary.button-modal {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -989,8 +980,8 @@ ol {
   margin: 0 auto;
 }
 
-.button-secondary.button-modal:hover,
-.button-secondary.button-modal:focus {
+.button-primary.button-modal:hover,
+.button-primary.button-modal:focus {
   color: var(--white-color);
   background-color: var(--background-button-color-sec);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
