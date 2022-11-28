@@ -28,20 +28,20 @@
             ><span class="logo__black">Studio</span></a
           >
 
-          <ul class="navigation__list list">
+          <ul class="navigation__sites list">
             <li class="navigation__item"><a class="navigation__link" href="./index.html">Студія</a></li>
             <li class="navigation__item page-current"><a class="navigation__link current" href="./portfolio.html">Портфоліо</a></li>
             <li class="navigation__item"><a href="#">Контакти</a></li>
           </ul>
 
-          <ul class="auth-nav list">
+          <ul class="navigation__links list">
             <li class="navigation__item">
-              <a class="navigation__link" href="mailto:info@devstudio.com"><svg class="auth-nav-icon" width="16" height="12">
+              <a class="navigation__link" href="mailto:info@devstudio.com"><svg class="navigation__link--icon" width="16" height="12">
                   <use href="./images/icons.svg#email"></use></svg
                 >info@devstudio.com</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="tel:+380961111111"><svg class="auth-nav-icon" width="10" height="16">
+              <a class="navigation__link" href="tel:+380961111111"><svg class="navigation__link--icon" width="10" height="16">
                   <use href="./images/icons.svg#telephone"></use></svg
                 >+38 096 111 11 11</a>
             </li>
@@ -297,54 +297,54 @@
 
     <footer class="footer">
       <div class="container footer-container">
-        <div class="footer-links">
+        <div class="footer__links">
           <a class="logo" href="./index.html">
             <span class="logo__blue">Web</span
             ><span class="logo__white">Studio</span></a>
 
           <address class="address">
-            <ul class="address-footer list">
-              <li class="address-item">
-                <a class="address-type" href="https://goo.gl/maps/5Nj7DeXVXqgo8Si49"
+            <ul class="address__list list">
+              <li class="address__item">
+                <a class="address__link" href="https://goo.gl/maps/5Nj7DeXVXqgo8Si49"
                   >м. Київ, пр-т Лесі Українки, 26</a>
               </li>
-              <li class="address-item">
-                <a class="email-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="address__item">
+                <a class="address__link address__email" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
-              <li class="address-item">
-                <a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="address__item">
+                <a class="address__link address__tel" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
-        <div class="footer-icons">
-          <p class="footer-title">Приєднуйтесь</p>
-          <ul class="team-icon-container list">
-            <li class="team-item" aria-label="інстаграм">
-              <a class="team-link footer-link" href="https://www.instagram.com/">
-                <svg class="team-icon footer-icon">
+        <div class="footer__social-links">
+          <p class="footer__title">Приєднуйтесь</p>
+          <ul class="social-links list">
+            <li class="social-links__item" aria-label="інстаграм">
+              <a class="social-links__link footer-link" href="https://www.instagram.com/">
+                <svg class="social-links__icon footer-icon">
                   <use href="./images/icons.svg#instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-item" aria-label="твіттер">
-              <a class="team-link footer-link" href="https://twitter.com/">
-                <svg class="team-icon footer-icon">
+            <li class="social-links__item" aria-label="твіттер">
+              <a class="social-links__link footer-link" href="https://twitter.com/">
+                <svg class="social-links__icon footer-icon">
                   <use href="./images/icons.svg#twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-item" aria-label="фэйсбук">
-              <a class="team-link footer-link" href="https://www.facebook.com/">
-                <svg class="team-icon footer-icon">
+            <li class="social-links__item" aria-label="фэйсбук">
+              <a class="social-links__link footer-link" href="https://www.facebook.com/">
+                <svg class="social-links__icon footer-icon">
                   <use href="./images/icons.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-item" aria-label="лінкедин">
-              <a class="team-link footer-link" href="https://www.linkedin.com/">
-                <svg class="team-icon footer-icon">
+            <li class="social-links__item" aria-label="лінкедин">
+              <a class="social-links__link footer-link" href="https://www.linkedin.com/">
+                <svg class="social-links__icon footer-icon">
                   <use href="./images/icons.svg#linkedin"></use>
                 </svg>
               </a>
@@ -352,10 +352,10 @@
           </ul>
         </div>
 
-        <div class="footer-subscription">
-          <p class="footer-title">Підпишіться на розсилку</p>
+        <div class="footer__subscription">
+          <p class="footer__title">Підпишіться на розсилку</p>
           <form
-            class="subscription-form"
+            class="footer__form"
             name="subscription-form"
             autocomplete="off"
             novalidate
@@ -364,15 +364,15 @@
               <span>Email</span>
             </label>
             <input
-              class="subscription-email"
+              class="footer__email"
               type="email"
               name="email"
               id="email-subscription"
               placeholder="E-mail"
             />
-            <button class="button-primary subscription-button" type="submit">
-              <p class="subscription-button-text">Підписатися</p>
-              <svg class="subscription-button-icon">
+            <button class="button-primary footer__button" type="submit">
+              <p class="footer__button--text">Підписатися</p>
+              <svg class="footer__button--icon">
                 <use
                   href="./images/icons.svg#icon-send"
                   width="24"
