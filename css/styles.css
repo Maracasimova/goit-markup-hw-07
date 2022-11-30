@@ -68,7 +68,7 @@ ol {
 
 .image {
   display: block;
-  max-widht: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -193,9 +193,14 @@ ol {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation__link--current {
+.navigation__link.navigation__link--current {
   position: relative;
   color: var(--accent-color);
+  
+}
+
+.navigation__link-icon {
+  margin-right: 10px;
 }
 
 .navigation__links {
@@ -402,7 +407,7 @@ ol {
 
 .team__item {
   background-color: var(--white-color);
-  widht: 270px;
+  width: 270px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -665,7 +670,7 @@ ol {
 .portfolio__button {
   border-radius: 4px;
   padding: 6px 22px;
-  min-widht: 125px;
+  min-width: auto;
 
   color: var(--primary-text-color);
   background-color: var(--background-button-color);
@@ -729,7 +734,7 @@ ol {
 .cards__overlay-container {
   position: relative;
   overflow: hidden;
-  max-widht: 370px;
+  max-width: 370px;
   max-height: 294px;
 }
 
