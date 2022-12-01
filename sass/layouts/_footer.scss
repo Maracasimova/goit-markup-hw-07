@@ -55,18 +55,19 @@
   transition-property: box-shadow, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer__email:focus,
-.footer__email:hover {
-  outline: none;
-  border: 1px solid #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+  &:focus,
+  &:hover {
+    outline: none;
+    border: 1px solid #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 
-.footer__email::placeholder {
+  &::placeholder {
   font-weight: 400;
 }
+}
+
 
 .footer__button {
   position: relative;

@@ -3,16 +3,16 @@
 /* цвет фона: #F5F5F5 */
 /* цвет шапки: #ECECEC */
 /* цвет акцент: #2196F3 */
-
+/* 
 html {
   box-sizing: border-box;
-}
-
+} */
+/* 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
 /* h1,
 h2,
@@ -909,12 +909,13 @@ ol {
 .contacts-form__comment:focus {
   border-color: var(--accent-color);
   outline: none;
-}
+} */
 
-.contacts-form__data:focus + .contacts-form__icon {
+/* .contacts-form__data:focus + .contacts-form__icon {
   fill: var(--accent-color);
-}
-.contacts-form__icon {
+}  */
+
+/* .contacts-form__icon {
   position: absolute;
   fill: var(--black-color);
   left: 11px;

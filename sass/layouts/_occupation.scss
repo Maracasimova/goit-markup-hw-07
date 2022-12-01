@@ -4,6 +4,7 @@
 }
 
 .occupation__list {
+  @extend %list;
   display: flex;
   flex-direction: row;
   margin-left: auto;

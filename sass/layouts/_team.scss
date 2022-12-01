@@ -5,6 +5,7 @@
 }
 
 .team__list {
+  @extend %list;
   display: flex;
   margin-left: auto;
   margin-right: auto;
