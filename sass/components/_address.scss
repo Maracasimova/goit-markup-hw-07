@@ -1,0 +1,35 @@
+.address {
+  margin-top: 20px;
+}
+
+.address__list {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address__item {
+  margin-bottom: 9px;
+}
+
+.address__item:last-child {
+  margin-bottom: 0;
+}
+
+.address__link {
+  color: var(--white-color);
+  text-decoration: none;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.address__email,
+.address__tel {
+  color: var(--footer-white-color);
+  font-style: normal;
+}

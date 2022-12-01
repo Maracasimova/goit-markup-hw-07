@@ -1,8 +1,5 @@
-@import "./base/base";
-@import "./base/reset";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
+
+@import "./utils/main";
+@import "./base/main";
+@import "./layouts/main";
+@import "./components/main";
