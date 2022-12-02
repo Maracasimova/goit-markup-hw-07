@@ -1,5 +1,5 @@
 .features {
-  padding-top: 95px;
+  @include padding-h(94px, null);
 }
 
 .features__list {

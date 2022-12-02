@@ -1,6 +1,5 @@
 .portfolio {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  @include padding-h(94px, 94px);
 }
 
 .portfolio__list {
@@ -15,8 +14,10 @@
 
 .portfolio__button {
   border-radius: 4px;
-  padding: 6px 22px;
   min-width: auto;
+
+  @include padding-h(6px, 6px);
+  @include padding-w(22px, 22px);
 
   color: var(--primary-text-color);
   background-color: var(--background-button-color);

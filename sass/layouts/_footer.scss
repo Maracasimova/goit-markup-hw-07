@@ -1,7 +1,7 @@
 .footer {
   background: var(--background-footer-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
+  @include padding-h(60px, 60px);
 }
 
 .footer-container {
@@ -44,7 +44,6 @@
   display: inline-block;
   height: 50px;
   width: 358px;
-  padding: 15px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
@@ -53,6 +52,8 @@
   transition-property: box-shadow, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @include padding-w(15px, 16px);
 
   &:focus,
   &:hover {

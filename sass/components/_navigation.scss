@@ -33,8 +33,6 @@
 
 .navigation__links a {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
   align-items: center;
 
   color: var(--title-text-color);
@@ -43,6 +41,7 @@
   text-decoration: none;
 
   @include fonts(inherit, 500, 14px, 0.02em);
+  @include padding-h(32px, 32px);
 
   &:hover,
   &:focus {
@@ -62,8 +61,6 @@
 
 .navigation__pages a {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 
   color: var(--primary-text-color);
 
@@ -71,6 +68,7 @@
   text-decoration: none;
 
   @include fonts(inherit, 500, 14px, 0.02em);
+  @include padding-h(32px, 32px);
 
   &:hover,
   &:focus {

@@ -1,7 +1,7 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--background-color-our-team);
+
+  @include padding-h(94px, 94px);
 }
 
 .team__list {

@@ -1,6 +1,5 @@
 .occupation {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  @include padding-h(94px, 94px);
 }
 
 .occupation__list {
