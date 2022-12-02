@@ -21,19 +21,19 @@
 }
 
 .team__worker {
-  font-weight: 500;
-  font-size: 16px;
   line-height: 1.19;
   margin: 30px auto 10px auto;
   text-align: center;
+
+  @include fonts(null, 500, 16px, null);
 }
 
 .team__position {
   color: var(--title-text-color);
 
-  font-weight: 400;
-  font-size: 16px;
   line-height: 1.19;
   margin-bottom: 16px;
   text-align: center;
+
+  @include fonts(null, 400, 16px, null);
 }

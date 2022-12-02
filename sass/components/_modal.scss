@@ -80,8 +80,8 @@
 
 .modal__text {
   display: flex;
-  font-size: 20px;
   justify-content: center;
-  letter-spacing: 0.03em;
   line-height: calc(23 / 20);
+
+  @include fonts(null, null, 20px, 0.03em);
 }

@@ -79,17 +79,16 @@
 
 .cards__title {
   color: var(--primary-text-color);
-  font-weight: 700;
-  font-size: 18px;
   line-height: 36px;
-  letter-spacing: 0.06em;
+  
+  @include fonts(null, 700, 18px, 0.06em);
 }
 
 .cards__subtitle {
   color: var(--title-text-color);
-  font-size: 16px;
   line-height: 1.9;
   margin-left: 0;
   margin-top: 4px;
-  font-weight: 400;
+
+  @include fonts(null, 400, 16px, null);
 }

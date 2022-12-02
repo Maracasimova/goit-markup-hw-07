@@ -31,8 +31,7 @@
 
 .features__text {
   color: var(--title-text-color);
-
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
+
+  @include fonts(null, 400, 14px, null);
 }
